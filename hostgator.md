@@ -1,3 +1,10 @@
+# Hospedagem compartilhada
+
+### Atualizando python para 3.5
+```sh
+python_enable_3.5
+```
+
 # VPS
 
 ## Email
