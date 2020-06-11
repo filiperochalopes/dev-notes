@@ -33,3 +33,30 @@ Edite o arquivo `/usr/local/cpanel/base/horde/imp/config/mime_drivers.php`
     )
 // ...
 ```
+
+## Python
+
+### Instalando pyenv
+
+```sh
+yum -y install epel-release
+yum install git gcc zlib-devel bzip2-devel readline-devel sqlite-devel openssl-devel
+git clone https://github.com/pyenv/pyenv.git $HOME/.pyenv
+vim $HOME/.bashrc
+```
+
+`.bashrc`
+```
+# ...
+## pyenv configs
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+```
+
+```sh
+source $HOME/.bashrc
+```
