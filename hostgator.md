@@ -54,9 +54,19 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv init -)"
 fi
 ```
 
 ```sh
 source $HOME/.bashrc
+```
+
+## Workarounds
+
+### /tmp
+Sempre tem algum problema com o `/tmp`, permissões. Alguns programas que necessitam dele para execução:
+```sh
+# docker-compose
+export TMP=/home/wworan/tmp && docker-compose
 ```
