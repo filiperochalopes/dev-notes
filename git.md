@@ -16,6 +16,12 @@ Forked from: https://github.com/joshnh and translated to pt-BR
 | `git init` | Inicializa um repositório local git |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Cria uma cópia local de um repositório remoto git |
 
+### Excluindo as coisas
+
+| Comando | Descrição |
+| ------- | ----------- |
+| `git revert [commit-hash]` | Retorna a branch para aquele commit |
+
 ### Saving passwords for my clients https repositories
 
 | Command | Description |
