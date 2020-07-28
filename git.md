@@ -21,6 +21,9 @@ Forked from: https://github.com/joshnh and translated to pt-BR
 | Comando | Descrição |
 | ------- | ----------- |
 | `git revert [commit-hash]` | Retorna a branch para aquele commit |
+| `git rm -r` | |
+| `git checkout [hash/HEAD~3] .` | |
+| `git commit -am "explica o revert"` | Retorna excluindo também arquivos novos referentes ao revert |
 
 ### Saving passwords for my clients https repositories
 
