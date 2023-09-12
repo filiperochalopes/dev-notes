@@ -1,0 +1,6 @@
+/* ~/Library/KeyBindings/DefaultKeyBinding.dict */
+
+{
+    "~]" = (insertText:, "|");
+    "~$]" = (insertText:, "\");
+}
